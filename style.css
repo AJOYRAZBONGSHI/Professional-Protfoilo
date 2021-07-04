@@ -1,11 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 52px;
+    padding-bottom: 30px;
+}
+
+p {
+    padding: 20px 0;
 }
 
 .name {
     color: orange;
+}
+
+.hire {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.first-btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    border: none;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.fist-sec {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.left {
+    margin: 70px 0 0 90px;
+    width: 50%;
+    height: 100vh;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+}
+
+.right img {
+    width: 85%;
 }
