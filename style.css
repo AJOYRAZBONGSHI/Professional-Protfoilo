@@ -1,1 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.fist-sec {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+}
+
+.left h1 {
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+
+.left h1 span {
+    color: tomato;
+}
+
+.left h3 {
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+.left p {
+    padding-left: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.left a {
+    text-decoration: none;
+    margin-left: 40px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-image: linear-gradient(90deg, tomato, orange);
+    transition: background 1s linear;
+}
+
+.left a:hover {
+    background-image: linear-gradient(90deg, orange, tomato);
+}
+
+.second-sec {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.expe-name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.third-sec {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.left-side {
+    width: 70%;
+    height: 50vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-left: 8px solid tomato;
+    margin: 0 30px 0 80px;
+}
+
+.right-side {
+    width: 70%;
+    height: 50vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-left: 8px solid tomato;
+    margin: 0 80px 0 30px;
+}
+
+.left-side h1,
+.right-side h1 {
+    font-size: 40px;
+}
+
+.left-side h3,
+.right-side h3 {
+    font-size: 25px;
+}
+
+.left-side p,
+.right-side p {
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+footer p {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
